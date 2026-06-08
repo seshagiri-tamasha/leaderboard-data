@@ -1,0 +1,14 @@
+[
+  {
+    "type": "COMMIT",
+    "repo": "repo1",
+    "sha": "abc123",
+    "timestamp": "2026-06-08T10:00:00Z"
+  },
+  {
+    "type": "PR_MERGED",
+    "repo": "repo1",
+    "sha": "def456",
+    "timestamp": "2026-06-08T11:00:00Z"
+  }
+]
