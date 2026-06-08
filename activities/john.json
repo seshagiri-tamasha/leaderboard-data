@@ -28,7 +28,6 @@
     "prNumber": 45,
     "branch": "main",
     "timestamp": "2026-06-08T11:00:00Z",
-    "approvals": 2,
     "files": [
       {
         "filename": "auth.controller.ts",
