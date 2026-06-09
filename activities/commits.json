@@ -1,18 +1,39 @@
-{
-    "id": "commit_abc123_logger_fix",
+[
+  {
+    "id": "c_1",
     "type": "COMMIT",
-    "repo": "GamepeTechnolgies/Tamasha-Node-API",
-    "timestamp": "2026-06-08T05:33:31Z",
-    "author": "sde2-codes",
+    "repo": "leaderboard-data",
+    "timestamp": "2026-06-09T12:00:00Z",
+    "author": "alice",
+    "sha": "a1b2c3",
+    "message": "hotfix scoring bug",
+    "branch": "main",
+    "parentPrNumber": null,
+    "points": 5,
     "files": [
-        {
-            "filename": "logger.ts",
-            "path": "src/utils/logger.ts"
-        }
+      { "filename": "score.ts", "path": "src/score.ts" }
     ],
-    "points": 3,
-    "sha": "abc123def456",
-    "message": "fix logging issue in user session tracking",
-    "branch": "feature/debug-logs",
-    "isInPR": false
-}
+    "breakdown": {
+      "commitAuthor": 5
+    }
+  },
+
+  {
+    "id": "c_2",
+    "type": "COMMIT",
+    "repo": "leaderboard-data",
+    "timestamp": "2026-06-09T12:30:00Z",
+    "author": "david",
+    "sha": "d4e5f6",
+    "message": "minor refactor",
+    "branch": "main",
+    "parentPrNumber": 101,
+    "points": 0,
+    "files": [
+      { "filename": "db.ts", "path": "src/db.ts" }
+    ],
+    "breakdown": {
+      "commitAuthor": 0
+    }
+  }
+]
