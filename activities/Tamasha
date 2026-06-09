@@ -1,0 +1,21 @@
+[
+  {
+    "type": "COMMIT",
+    "author": "Tamasha",
+    "sha": "sys123abc456def",
+    "repo": "GamepeTechnologies/unified-multi-workspace-api",
+    "timestamp": "2026-06-09T10:15:00Z",
+    "message": "system: sync leaderboard snapshot",
+    "link": "https://github.com/GamepeTechnologies/unified-multi-workspace-api/commit/sys123abc456def",
+    "pullRequest": {
+      "number": 1001,
+      "repo": "GamepeTechnologies/unified-multi-workspace-api"
+    },
+    "stats": {
+      "additions": 0,
+      "deletions": 0,
+      "filesChanged": 0
+    },
+    "isMergeCommit": false
+  }
+]
