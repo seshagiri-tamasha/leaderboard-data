@@ -1,29 +1,46 @@
-{
-    "id": "pr_1180_tamasha_node_api",
+[
+  {
+    "id": "pr_1",
     "type": "PR_MERGED",
-    "repo": "GamepeTechnolgies/Tamasha-Node-API",
-    "timestamp": "2026-06-08T09:02:22Z",
-    "author": "sde2-codes",
+    "repo": "leaderboard-data",
+    "timestamp": "2026-06-09T10:00:00Z",
+    "author": "alice",
+    "mergedBy": "bob",
+    "reviewers": ["charlie", "david"],
+    "prNumber": 101,
+    "title": "Add leaderboard scoring engine",
+    "baseBranch": "main",
+    "headBranch": "feature/scoring",
     "files": [
-        {
-            "filename": "user.service.ts",
-            "path": "src/services/user.service.ts"
-        },
-        {
-            "filename": "auth.middleware.ts",
-            "path": "src/middleware/auth.middleware.ts"
-        }
+      { "filename": "score.ts", "path": "src/score.ts" },
+      { "filename": "db.ts", "path": "src/db.ts" }
     ],
-    "points": 18,
-    "prNumber": 1180,
-    "title": "fix script understanding and improve logging",
-    "mergedBy": "nomercy0-tamasha",
-    "reviewers": ["aman-tamasha", "shridharagrawal-tamasha"],
-    "baseBranch": "api-common-production",
-    "headBranch": "fix/logging-improvements",
     "breakdown": {
-        "author": 12,
-        "reviewer": 4,
-        "merger": 2
+      "author": 5,
+      "reviewer": 3,
+      "merger": 2
     }
-}
+  },
+
+  {
+    "id": "pr_2",
+    "type": "PR_MERGED",
+    "repo": "leaderboard-data",
+    "timestamp": "2026-06-09T11:00:00Z",
+    "author": "charlie",
+    "mergedBy": "alice",
+    "reviewers": ["bob"],
+    "prNumber": 102,
+    "title": "Fix API sync bug",
+    "baseBranch": "main",
+    "headBranch": "fix/api-sync",
+    "files": [
+      { "filename": "sync.ts", "path": "src/sync.ts" }
+    ],
+    "breakdown": {
+      "author": 4,
+      "reviewer": 2,
+      "merger": 2
+    }
+  }
+]
